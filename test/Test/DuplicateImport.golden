@@ -1,0 +1,5 @@
+module Test.DuplicateImport where
+
+import Data.Bool (not, otherwise)
+
+foo = not otherwise
